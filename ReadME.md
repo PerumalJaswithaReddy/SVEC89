@@ -25,4 +25,7 @@
 	- Distributed VCS
 		-Git,Mercurial
 	- Remote (central) VCS
-	-Github,Bitbucket
+	- Github,Bitbucket
+	- git commit -m "ReadME.md and sample.html files are added"
+	- git config --global user.email "you@example.com"
+        - git config --global user.name "Your Name"
