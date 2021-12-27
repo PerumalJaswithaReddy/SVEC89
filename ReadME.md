@@ -41,3 +41,7 @@
 	- git remote add origin https://github.com/PerumalJaswithaReddy/SVEC89.git
 - push to github
 	- git push -u origin master
+- update data
+	- git add .
+	- git commit -m "File modified"
+	- git push origin master
