@@ -25,7 +25,19 @@
 	- Distributed VCS
 		-Git,Mercurial
 	- Remote (central) VCS
-	- Github,Bitbucket
-	- git commit -m "ReadME.md and sample.html files are added"
+	-Github,Bitbucket
+### Git
+- git init
+- git add filename
+- git add filaname1 filename2 filename3
+- git add . or git add --all(add all files)
+- git status
+- do configurations
+	- git config --global user.name "Your Name"
 	- git config --global user.email "you@example.com"
-        - git config --global user.name "Your Name"
+- comit data
+	- git commit -m "ReadME.md and sample.html files are added"
+- go to github
+	- git remote add origin https://github.com/PerumalJaswithaReddy/SVEC89.git
+- push to github
+	- git push -u origin master
