@@ -60,3 +60,5 @@
 		- text will start from new line
 	- inline elements
 		- Examples:spam,image,a,nav,all form elements,input,textarea,legend,sup,sub
+##### Reference links
+	- [Flaticon](flaticon.com)
