@@ -59,4 +59,4 @@
 		- Example:headings:range h1 - h6,paragraph:p,div,all semantic elements 
 		- text will start from new line
 	- inline elements
-		- spam,image,a,nav,all form elements,input,textarea,legend,sup,sub
+		- Examples:spam,image,a,nav,all form elements,input,textarea,legend,sup,sub
