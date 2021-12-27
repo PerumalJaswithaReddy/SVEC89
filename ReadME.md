@@ -17,7 +17,7 @@
 - Python
 ### Databases
 - MongoDB
--SQLite
+- SQLite
 - Firebase
 - Postgressql
 - Oracle
@@ -45,3 +45,18 @@
 	- git add .
 	- git commit -m "File modified"
 	- git push origin master
+
+### HTML
+- Hyper Text Markup Lanuage
+- Common browsers-chrome,firefox,opera,internet explorer,safari
+- HTML5-current version
+- 3 categories
+	-semantic elements
+		-describes why the elements are used
+		-Examples:header,section,article,aside,footer,table
+	-block level elemnts
+		-it will occupy entire width of browser
+		-Example:headings:range h1 - h6,paragraph:p,div,all semantic elements 
+		-text will start from new line
+	-inline elements
+		-spam,image,a,nav,all form elements,input,textarea,legend,sup,sub
