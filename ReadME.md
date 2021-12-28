@@ -89,6 +89,7 @@ selector{
 	- Inline>Internal>External
 ### Selectors
 + simple selectors
+	- Universal selector(*)
 	- By element name
 	- Grouping selector (,)
 	- Class selector
@@ -102,3 +103,13 @@ selector{
 	+ General sibling selector(~)
 + Pseudo class selector
 + Attribute selector
+### Box model
++ margin[for entire border]
++ border
++ padding
+	- 4 dimensions top,right,bottom,left
+	- 3 top,left and right,bottom
+	- 2 top and bottom,left and right
+	- 1 all sides
++ 1rem=16px
++ width

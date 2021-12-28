@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
     <style>
+        *{
+           border: 20px solid blue;
+        }
         div p{
             background-color: yellowgreen;
             color: seashell;
@@ -16,13 +19,22 @@
             background-color: sienna;
             font-family:fantasy;
         }
-        div+section{
+        div+p{
+            color: springgreen;
+        }
+        section+p{
             font-size: 100px;
             color: salmon;
         }
         section~p{ 
             font-size: 50px;
             background-color: slategray;
+        }
+        p:first-letter{
+            font-size: 100px;
+        }
+        p:first-line{
+            background-color: coral;
         }
     </style>
 </head>
@@ -34,6 +46,8 @@
             <p>Three</p> 
             <p>Seven</p>
         </div>
+        <p>Nine</p>
+        <p>Ten</p>
         <section>
             <p>Six</p>
             <p>Eight</p>
@@ -41,5 +55,7 @@
         <p>Four</p>
         <p>Five</p>
     </div>
+    <p>dfghrjbdjxndmfjdkfjsuerhjkjfkdflsfjkeuhsjfhjgbnvbnbvjhjgfghsjkfsdfdbhbfjgjghrughkjjskdjkfjjkf
+        hfgdfghghghghdfghfhdfgthfghfhfhtdfghfgthgfdjgfhjdjkfhdjkfhkgjsjfheuhfjnvfdgnfdgbhj</p>
 </body>
 </html>
