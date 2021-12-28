@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        div p{
+            background-color: yellowgreen;
+            color: seashell;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+        }
+        div>div > p{
+            background-color: sienna;
+            font-family:fantasy;
+        }
+        div+section{
+            font-size: 100px;
+            color: salmon;
+        }
+        section~p{ 
+            font-size: 50px;
+            background-color: slategray;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>One</p>
+        <p>Two</p>
+        <div>
+            <p>Three</p> 
+            <p>Seven</p>
+        </div>
+        <section>
+            <p>Six</p>
+            <p>Eight</p>
+        </section>
+        <p>Four</p>
+        <p>Five</p>
+    </div>
+</body>
+</html>

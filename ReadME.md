@@ -60,5 +60,45 @@
 		- text will start from new line
 	- inline elements
 		- Examples:spam,image,a,nav,all form elements,input,textarea,legend,sup,sub
-##### Reference links
-	- [Flaticon](flaticon.com)
+### Reference links
+- Flaticon [https://flaticon.com/]
+- Color codes
+	- html color codes[https://htmlcolorcodes.com/]
+	- webaim contrast checker[https://webaim.org/resources/contrastchecker/]
+### HTML elements
+- audio
+- vedio
+- canvas
+- progress
+- meter
+- datalist
+- select
+### CSS
++ Cascading Style Sheets
++ 3 ways to apply for html
+	- Inline CSS
+	- Internal CSS
+	- External CSS
++ syntax of CSS
+'''
+selector{
+	CSS properties
+}
+'''
+- Priority
+	- Inline>Internal>External
+### Selectors
++ simple selectors
+	- By element name
+	- Grouping selector (,)
+	- Class selector
+	- id selector
+	- id has more priority than class
+	- id is unique
++ combinators
+	+  Descendant selector( )
+	+ Child selector(>)
+	+ Adjacent sibling selector(+)[can't override descendant selector]
+	+ General sibling selector(~)
++ Pseudo class selector
++ Attribute selector
