@@ -65,7 +65,7 @@
 - Color codes
 	- html color codes[https://htmlcolorcodes.com/]
 	- webaim contrast checker[https://webaim.org/resources/contrastchecker/]
-### HTML elements
+### Task1 HTML elements
 - audio
 - vedio
 - canvas
@@ -113,3 +113,29 @@ selector{
 	- 1 all sides
 + 1rem=16px
 + width
+
+### Task2
+- indexpage.html
+- login.html
+- register.html
+### Responsive web design
+### Flex-box
++ display
+	- none
+	- inline
+	- block
+	- inline-block
+	- flex
+		- flex-wrap
+		- justify-content
+		- flex-direction
+		- flex-flow
++ align-content
++ align-items
++ align-self
++ position
+	- static
+	- relative
+	- absolute
+	- fixed
+	- sticky

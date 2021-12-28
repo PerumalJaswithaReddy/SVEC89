@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        /* p{
+            display: inline;
+        }
+        span{
+            display: block;
+        }
+        h3{
+            display: inline-block;
+            background-color: gray;
+            padding: 50px;
+            height: 100px;
+            width: 150px;
+        } */
+        .list{
+            display:flex;
+            /* flex-wrap: wrap-reverse;
+            flex-direction:row-reverse; */
+            flex-flow: wrap row-reverse;
+            justify-content: space-evenly;
+        }
+        h1{
+            padding: 50px;
+            border: 3px solid pink;/*Space from border to text*/
+            margin: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- <p>Paragraph</p>
+    <p>Paragraph</p>
+    <span>Text 1</span>
+    <span>Text 2</span>
+    <h3>Welcome</h3>
+    <h3>Welcome</h3> -->
+    <div class="list">
+        <h1>Heading1</h1>
+        <h1>Heading2</h1>
+        <h1>Heading3</h1>
+        <h1>Heading4</h1>
+        <h1>Heading5</h1>
+        <h1>Heading6</h1>
+    </div>
+</body>
+</html>
