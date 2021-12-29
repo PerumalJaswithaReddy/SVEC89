@@ -9,6 +9,7 @@
     <style>
         .card{
             border:10px solid gray;
+            /* height:30rem */
             width:20rem;
             border-radius: 10px;
             text-align: center;
@@ -16,14 +17,15 @@
             margin-top: 10px;
         }
         .card img {
-            width:25%;
+            width:10%;
+            text-align: center;
         }
         button{
             background-color:brown;
             color: aliceblue;
             margin: 15px 0px;
             padding: 5px;
-            width: 100%;
+            width: 40%;
             border-radius: 20px;
                     
         }
@@ -34,8 +36,22 @@
         }
         .main{
             display: flex;
-            flex-wrap: wrap;
+            flex-flow: wrap row;
             justify-content: space-around;
+        }
+        @media only screen and (min-width:320px) and (max-width:768px){
+            a{
+                color:white;
+                background-color:blue;
+            }
+        }
+        @media only screen and (min-width:768px) and (max-width:992px){
+            a{
+                color:white;
+                background-color:blueviolet;
+                border:1 px solid peru;
+                padding: 5px;
+            }
         }
     </style>
 </head>

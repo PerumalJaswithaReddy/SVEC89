@@ -4,7 +4,7 @@
 - JavaScript
 - Bootstrap framework
 - Angular framework
-- ReactJs
+- ReactJs(Library)
 ### Back-end Technologies
 - Node.js
 	- express.js
@@ -45,6 +45,8 @@
 	- git add .
 	- git commit -m "File modified"
 	- git push origin master
+- download from github
+	- git clone https://github.com/PerumalJaswithaReddy/spacetourism.git
 
 ### HTML
 - Hyper Text Markup Lanuage
@@ -139,3 +141,74 @@ selector{
 	- absolute
 	- fixed
 	- sticky
+### Media Quires
+- Devices
+	- Extra small devices(mobiles)[max-width:600px]
+	- Small devices(large mobiles/small tablets)[min-width:600px]
+	- Medium  devices(small laptops)[min-width:768px]
+	- Large devices(desktops/large laptops)[min-width:992px]
+	- Extra large devices(like LED devices)[min-width:1200px]
+
+	'''
+	@media only screen(min-width:320px) and (max-width=500px){ CSS code}
+
+### Task 3 Navbar with responsive
+
+### Animations
+
+### Bootstrap 4.6 Framework
+-  A CSS framework
+- module(collection of functions ,classes ,etc)
+- package(collection of modules)
+- library(collection of packages)
+- framework(collection of libraries)
+- Two modes:offline and online
+- Online 
+	- CDN links
+	- https://getbootstrap.com/docs/4.6/getting-started/introduction/
+- Offline
+	- getboostrap.com
+- Bootstrap classes
+	- container
+	- container-fluid
+	- jumbotron
+	- bg-primary	
+	- dropdown
+	- card-deck
+	- card-group
+	- d-flex(similar to card-group)
+	
+-marquee
+
+
+- background-color - bg
+- text-white
+- margin in bootstrap(m-* (0-5))
+	- 0 --> 0 rem
+	- 1 --> 0.25 rem (4px)
+	- 2 --> 0.5 rem (8px)
+	- 3 --> 1 rem (16px)
+	- 4 --> 1.5 rem (24px)
+	- 5 --> 3 rem (48px)
+	- ml-5(margin left)
+	- m(margin in all directions)
+	- mt(margin top)[mt-2]
+	- mb(margin bottom)[mb-3]
+	- mr(margin right)
+- padding (padding-left --> pl-5)
+- colors
+	- primary
+	- secondary
+	- info
+	- success
+	- warning
+	- danger
+	- light
+	- dark
+	- white
+	+ color classes used for 
+		- buttons(ex:btn primary)
+		- text(text-white)
+		- background(bg-secondary)
+		- alerts(alert alert-primary)
+
