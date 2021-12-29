@@ -165,7 +165,7 @@ selector{
 - Two modes:offline and online
 - Online 
 	- CDN links
-	- https://getbootstrap.com/docs/4.6/getting-started/introduction/
+	- [https://getbootstrap.com/docs/4.6/getting-started/introduction/]
 - Offline
 	- getboostrap.com
 - Bootstrap classes
@@ -177,8 +177,30 @@ selector{
 	- card-deck
 	- card-group
 	- d-flex(similar to card-group)
-	
--marquee
+	- marquee
+	- text box
+	- Grid system
+		- syntax
+			- col-sm-12
+		- xs(Extra small devices)
+		- sm(small devices)
+		- md(medium devices)
+		- lg(large devices)
+		- xl(Extra large devices)
+	- modal
+		- extra large modal(modal-xl)
+		- large modal(modal-lg)
+		- small modal(modal-sm)
+	- table
+		- thead
+		- tbody
+		- borders
+			- table
+			- table-border
+			- table-bordered
+			- table-striped
+			- table-hover
+		
 
 
 - background-color - bg

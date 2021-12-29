@@ -1,0 +1,10 @@
+label {
+            float: left;
+            width: 200em;
+            text-align: left;
+            font-size: 18px;
+            font-style: italic;
+        }
+        .txt{
+            width: 400px;
+        }
