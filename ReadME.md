@@ -302,4 +302,55 @@ selector{
 		...parameter
 	```
 + Destructuring of array and objects
-	- 
++ Functions
+	- function with functionname
+	- anonymous function
+	- Arrow function
+	- settimeout
++ Loops
+	- for-in(returns index )
+	- for-of(returns values)
+	- forEach() (ES-5)
+	- map() (ES-6)
+
+### DOM
++ Document Object Model
++ also Contains some browser objects:document,history,window,navigator
++ DOM methods(document.method_name())
+	- document.getAnimations
+    - document.getElementById-
+    - document.getElementsByClassName-
+    - document.getElementsByTagName-
+	- document.getElementsByElementName-
+    - document.getRootNode
+    - document.getSelection
+    - document.hasChildNodes
+	- textcontent
+	- innertext
+	- appendChild
+	- appendMain
+	- innerHTML
+	- setAttribute()
+	- classList
+	- style
+	- src
+	- querySelector()
++ textcontent is mostly used instead of innertext
+
+### JSON
+- Java Script Object Notation
+- To exchange information between client and server
+```
+{
+	"name":"abcd",
+	"age":45,
+	"salary":"5LPA",
+	"mobile":7834632763
+}
+```
++ Ajax call or Promises(fetch API) or axios
+
+
+
+
+

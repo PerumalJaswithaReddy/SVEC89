@@ -60,12 +60,63 @@
 // console.log(b,c,d)
 
 
-let employee={
-        name1:"hjdf",designation:"JSD",salary:"4LPA"
-    }
-let{name1,...b}=employee
-console.log(name1,b)
+// let employee={
+//         name1:"hjdf",designation:"JSD",salary:"4LPA"
+//     }
+// let{name1,...b}=employee
+// console.log(name1,b)
 
 
+//Functions
 
+//Anonymous function
+// let demo=function(x,y){
+//     return x+y
+// }
+// console.log(demo(1,2))
+// Anonymous 2
+// (function(){
+//     console.log("HELLO")
+// })()
 
+//Arrow function
+// let demo=(x,y) => {
+//     return x*y
+// }
+// console.log(demo(2,3))
+
+//setTimeout
+// setTimeout(function(){
+//     console.log("HELLO")
+// },5000)
+
+//for
+// let employees=["abc","cde","efg","ghi"]
+// for(let i=0;i<employees.length;i++){
+//     console.log(employees[i])
+// }
+// for(let i in employees){
+//     console.log(i,",",employees[i])
+// }
+// for(let i of employees){
+//     console.log(i,",",employees.indexOf(i))
+// }
+// let a=employees.forEach(function(element){
+//     return element
+// })
+// console.log(a)
+
+// let a=employees.forEach(function(element,index){
+//     console.log(element+"  "+index)
+// })
+//map
+// let a=employees.map(function(element,index){
+//     return element+"K"+index
+// })
+// console.log(a)
+// console.log(employees)
+
+// let a=employees.map((element,index)=>{
+//     return element+"K"+index
+// })
+// console.log(employees)
