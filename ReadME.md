@@ -67,6 +67,7 @@
 - Color codes
 	- html color codes[https://htmlcolorcodes.com/]
 	- webaim contrast checker[https://webaim.org/resources/contrastchecker/]
+	- javascript [https://jsonlint.com/]
 ### Task1 HTML elements
 - audio
 - vedio
@@ -234,3 +235,71 @@ selector{
 		- background(bg-secondary)
 		- alerts(alert alert-primary)
 
+### JavaScript
+
++ To apply dynamic behaviour for a website
++ loosely tople and  dynamic language 
++ text based programming lanuage and provide oops concept
++ run on both client side and server side(Node.js) for dynamic web applications
++ 1995 'Brenden Eich' 
+	- Initial version(ES-262)
+	- ECMA-Script
+		- ES features
+			- let and constant
+		- Functions
+			- map()
+			- arrow
+			- typeof
+			- 
+		- classes
+	- ES-11(Latest version)
++ Hoisting
++ datatypes
+	- Number
+	- String
+	- Boolean
+	- Undefine
+	- Null
+	- Object
+	- Array
+	- BigInt(2^53-1)
+
++ clg(console.log())
+
+
++ variables 
+	- keywords:var,let,const
+	- Scope
+		- Function level -->var
+		- Block level --> let and const
+	- Redefine(using var and let we can redefine values but const can't be redefined)
+	- Redeclare(var(with var) can be redeclared let and const can't be redeclared)
+
++ object
+```
+{
+	name:"anhxdjk"
+}
+```
+
+### Alerts
+
+-  3 categories to generate notifications:alert,prompt(to take input from the user),confirm
+
++ Console statements
+	- console.log()
+	- console.info()
+	- console.warn()
+	- console.error()
++ spread opertor(...)
+	- to change array elements from one array to another(swap)
+	```
+		...Variable_name
+	```
++ rest parameter
+	- to handle function paramaters
+	```
+		...parameter
+	```
++ Destructuring of array and objects
+	- 
