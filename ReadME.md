@@ -62,12 +62,7 @@
 		- text will start from new line
 	- inline elements
 		- Examples:spam,image,a,nav,all form elements,input,textarea,legend,sup,sub
-### Reference links
-- Flaticon [https://flaticon.com/]
-- Color codes
-	- html color codes[https://htmlcolorcodes.com/]
-	- webaim contrast checker[https://webaim.org/resources/contrastchecker/]
-	- javascript [https://jsonlint.com/]
+
 ### Task1 HTML elements
 - audio
 - vedio
@@ -350,7 +345,83 @@ selector{
 ```
 + Ajax call or Promises(fetch API) or axios
 
+### ReactJS
+### Features of React JS
++ A library
++ It follows component based architecture
++ Compoents
+	- Function components
+	- Class components
+	- Pure components
+	- Higher order components
++ It provide virtual DOM
++ It provides JSX[JavaScript and XML]
++ Unidirectional dataflow
++ Single page applications can be implemented
++ Project Environment setup
+	- with Node js
+	- [https://nodejs.org/en/download/]
+	- Download visual studio code
+	- install node js and check versions of 'node' and 'npm'[node package manager]
+		- node -v
+		- npm -v
+	- create project
+		- install 'webpack' and 'babel'
+		- using command 'create-react-app'
+			- 'npm install create-react-app'
+			- 'create-react-app <projectname> '
+		- 'npx create-react-app appname' 
+		- npx[node package runner]	
++ js files are called as components
++ Index.html
++ index.js
++ App.js
+	+ Index page
+		- nav.js
+		- body.js
+		- footer.js
+		+ Home.js
+		+ Login.js
+		+ Register.js
+
++ Class component
+	- creation [import React ,{Component} from 'react';]
+	```
+	class Classcomponentname extends Component{render(){return();}}
+	export default Classcomponentname;
+	```
+
++ Functional component
+	- creation
+		```
+		function Functionalcomponentname(){return();}
+		export default Functionalcomponentname;
+		```
++ Import class and functional componnets
+	```
+	import Functional from './components/Functional';
+	// In render
+	<Functional/>
+	```
 
 
+	```
+	import Classcomponent from "./Classcomponent";
+	// In Render
+	<> 
+      <Classcomponent/>
+    </>
+	```
+
+#### Reference links
+- Flaticon [https://flaticon.com/]
+- Color codes
+	- html color codes[https://htmlcolorcodes.com/]
+	- webaim contrast checker[https://webaim.org/resources/contrastchecker/]
+	- javascript [https://jsonlint.com/]
+	- [https://jsonplaceholder.typicode.com/posts]
+- Download Node-js [https://nodejs.org/en/download/]
+- Download Visual Studio code[https://code.visualstudio.com/download]
+- [http://localhost:3000/]
 
 
