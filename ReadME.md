@@ -400,7 +400,7 @@ selector{
 + Import class and functional componnets
 	```
 	import Functional from './components/Functional';
-	// In render
+	// in render
 	<Functional/>
 	```
 
@@ -412,6 +412,61 @@ selector{
       <Classcomponent/>
     </>
 	```
+
++ props
+	- to pass data from one component to another component,props are used
+	- props are immutable
+	
+	+ Union bank(Functional)
+		- Andhra bank(Functional)
+		- corporation(Class)
+
++ snippets
+	- rfc
+	- rfce
+	- rcc
+	- rconst
+
++ States
+
+- In react to maintain information we can use States
+- To maintain state in react the syntax is as follows
+- States are maintained in classs components only before version 16.8
+- To take state in react, try  to create constructor above render method and inside class component
+
+
+```
+constructor(){
+	super();
+	this.state={
+
+	}
+}
+```
+
+- To update state information in class component, use setstate() method
+- To update information in class component we have to follow component life cycle methods
+	+ componentDidMount()
+	+ componentWillMount
+	+ shouldComponentUpdate()
+	+ componentWillUpdate()
+	+ componentWillUnmount()
+	+ componentWillReceiveProps()
+	+ componentDidUpdate()
+
+
+### Hooks
+- from React 16.8 version Hooks are introduced
+- Parent- Child1--> Child2 --> Child3
+- usestate()
+- useEffect()
+- useMemo()
+- useRef()
+- useContext()
+
+- form handling
+- event handling
+- data handling
 
 #### Reference links
 - Flaticon [https://flaticon.com/]
