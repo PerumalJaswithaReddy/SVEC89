@@ -454,6 +454,7 @@ constructor(){
 	+ componentWillReceiveProps()
 	+ componentDidUpdate()
 
+- To maintain information in functional components hooks are used
 
 ### Hooks
 - from React 16.8 version Hooks are introduced
@@ -466,7 +467,28 @@ constructor(){
 
 - form handling
 - event handling
-- data handling
+- list rendering
+
+### Event handling and form rendering
+
+- onChange
+- onSubmit
+- preventDefault()
+
+### Routing in react
++ To navigate (route) from one component to another
+	- install 'react-router-dom' package
+		- Command-`npm install react-router-dom`
+		- 'BrowserRouter'
+		- 'Routes'
+		- 'Route'
+		- 'link'
+		- 'element'
+		- 'path'
+
++ Redux 
+
+- To maintain entire project information
 
 #### Reference links
 - Flaticon [https://flaticon.com/]
